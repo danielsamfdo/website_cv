@@ -1,0 +1,35 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+
+
+.custom-color{
+  background: #477d31; 
+  /*#ee6e73;*/
+  /*background: hsla(358, 79%, 68%, 0.58);*/
+}
+.side-panel-color{
+  background: #477d31; 
+  /*#ee6e73;*/
+  background: rgba(71, 125, 49, 0.74);
+  /*hsla(358, 79%, 68%, 0.58);*/
+}
+
+.contact-details-item{
+  margin-bottom: 10px;
+}
+.card-image a{
+  color: white;
+}
