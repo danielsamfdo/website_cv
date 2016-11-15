@@ -14,6 +14,10 @@
 }
 
 
+.maroon{
+  background: #8a2031;
+}
+
 
 .custom-color{
   background: #477d31; 
@@ -32,4 +36,23 @@
 }
 .card-image a{
   color: white;
+}
+
+header, main, footer {
+  padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+.m-b-15{
+  margin-bottom: 15px;
+}
+
+.caption{
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 30px;
 }
