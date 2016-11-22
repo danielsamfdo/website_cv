@@ -38,12 +38,12 @@
   color: white;
 }
 
-header, main, footer {
+header, main, footer, #main_content {
   padding-left: 300px;
 }
 
 @media only screen and (max-width : 992px) {
-  header, main, footer {
+  header, main, footer, #main_content {
     padding-left: 0;
   }
 }
